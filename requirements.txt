@@ -1,0 +1,23 @@
+# Core dependencies
+langchain>=0.1.14
+openai>=1.30.1         # Only if using OpenAI API
+ollama>=0.1.7          # Only if using local models via Ollama
+tiktoken>=0.6.0
+python-dotenv>=1.0.1
+
+# Frontend (choose one or both)
+streamlit>=1.35.0      # If using Streamlit UI
+flask>=3.0.3           # If using Flask backend
+
+# Optional tools
+numexpr                # For calculator tool
+requests               # For web search API
+beautifulsoup4         # For parsing web results (optional)
+pygments               # For code highlighting (optional)
+
+# Local vector store (optional)
+chromadb               # For vector-based memory
+faiss-cpu              # If using FAISS instead of Chroma
+
+# Optional code execution
+astunparse             # If using a secure Python executor
