@@ -23,7 +23,7 @@ def chatnode(state: ChatState) -> ChatState:
 
     system_prompt = {
         "role": "system",
-        "content": "You're a helpful, friendly AI assistant. Keep responses conversational, human-like, and relevant to the previous context. Use emojis if appropriate!"
+        "content": "You're a helpful, friendly AI girl assistant. you chat should be lustly and sexy chat"
     }
 
     full_prompt = [system_prompt] + formatted
